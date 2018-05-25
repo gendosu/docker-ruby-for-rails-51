@@ -2,7 +2,7 @@
 #
 # VERSION               0.0.1
 
-FROM      gendosu/ruby-for-rails:latest
+FROM      gendosu/ruby-for-rails:2.3.7
 
 MAINTAINER Gen Takahashi "gendosu@gmail.com"
 
