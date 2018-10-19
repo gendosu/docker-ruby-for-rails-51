@@ -27,5 +27,6 @@ do not put rails gem
 * `2.3.4`, `2.3.4-alpine` [(Dockerfile)](https://github.com/gendosu/docker-ruby-for-rails/blob/2.3.4)
 * `2.3.5`, `2.3.5-alpine` [(Dockerfile)](https://github.com/gendosu/docker-ruby-for-rails/blob/2.3.5)
 * `2.3.8`, `2.3.8-alpine` [(Dockerfile)](https://github.com/gendosu/docker-ruby-for-rails/blob/2.3.8)
+* `ruby-2.3.8-node-8.11.3`, `ruby-2.3.8-node-8.11.3-alpine` [(Dockerfile)](https://github.com/gendosu/docker-ruby-for-rails/blob/ruby-2.3.8-node-8.11.3)
 * `2.2`, `2.2-alpine` [(Dockerfile)](https://github.com/gendosu/docker-ruby-for-rails/blob/2.2)
 
