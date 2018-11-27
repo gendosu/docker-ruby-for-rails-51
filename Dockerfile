@@ -24,6 +24,6 @@ RUN echo 'export PATH="$HOME/.ndenv/bin:$PATH"' >> /etc/bash.bashrc
 RUN echo 'eval "$(ndenv init -)"' >> /etc/bash.bashrc
 RUN /bin/bash -c "source /etc/bash.bashrc" \
 &&  git clone https://github.com/riywo/node-build.git $($HOME/.ndenv/bin/ndenv root)/plugins/node-build \
-&&  $HOME/.ndenv/bin/ndenv install v8.12.0 \
-&&  $HOME/.ndenv/bin/ndenv global v8.12.0
+&&  $HOME/.ndenv/bin/ndenv install v8.13.0 \
+&&  $HOME/.ndenv/bin/ndenv global v8.13.0
 
