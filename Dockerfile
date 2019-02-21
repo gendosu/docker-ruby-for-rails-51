@@ -2,7 +2,7 @@
 #
 # VERSION               0.0.1
 
-FROM      gendosu/ruby-for-rails:2.5.3
+FROM      gendosu/ruby-for-rails:2.6.1
 
 ENV PATH "/root/.ndenv/shims:/root/.ndenv/bin:/products/node_modules/.bin:$PATH"
 
