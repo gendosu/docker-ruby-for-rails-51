@@ -26,6 +26,6 @@ RUN echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> /etc/bash.bashrc
 RUN echo 'eval "$(nodenv init -)"' >> /etc/bash.bashrc
 RUN /bin/bash -c "source /etc/bash.bashrc" \
   &&  git clone https://github.com/nodenv/node-build.git "$($HOME/.nodenv/bin/nodenv root)"/plugins/node-build \
-  &&  $HOME/.nodenv/bin/nodenv install 8.15.0 \
-  &&  $HOME/.nodenv/bin/nodenv global 8.15.0
+  &&  $HOME/.nodenv/bin/nodenv install 10.15.1 \
+  &&  $HOME/.nodenv/bin/nodenv global 10.15.1
 
