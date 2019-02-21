@@ -2,7 +2,7 @@
 #
 # VERSION               0.0.1
 
-FROM      gendosu/ruby:2.6.1-alpine
+FROM      gendosu/ruby:2.3.8-alpine
 
 ENV PATH "/root/.ndenv/shims:/root/.ndenv/bin:/products/node_modules/.bin:$PATH"
 
@@ -26,6 +26,6 @@ RUN echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> /etc/bash.bashrc
 RUN echo 'eval "$(nodenv init -)"' >> /etc/bash.bashrc
 RUN /bin/bash -c "source /etc/bash.bashrc" \
   &&  git clone https://github.com/nodenv/node-build.git "$($HOME/.nodenv/bin/nodenv root)"/plugins/node-build \
-  &&  $HOME/.nodenv/bin/nodenv install 8.15.0 \
-  &&  $HOME/.nodenv/bin/nodenv global 8.15.0
+  &&  $HOME/.nodenv/bin/nodenv install 8.13.0 \
+  &&  $HOME/.nodenv/bin/nodenv global 8.13.0
 
